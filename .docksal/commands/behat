@@ -38,4 +38,5 @@ if [[ ! -d "$path/vendor" ]]; then
 	fin exec "cd $path && composer install --prefer-source --no-interaction"
 fi
 # Launch Behat tests
+echo "cd $path && ../../docroot/bin/behat -p docker $params"
 fin exec "cd $path && ../../docroot/bin/behat -p docker $params"
