@@ -41,4 +41,11 @@ Install the packages.
 $ fin bash 
 $ cd docroot
 $ composer install
+$ exit
+```
+
+Generate one-time login URL to logic as admin
+
+``` 
+$ fin uli
 ```
