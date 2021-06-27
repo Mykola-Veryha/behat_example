@@ -49,3 +49,9 @@ Generate one-time login URL to logic as admin
 ``` 
 $ fin uli
 ```
+
+Execute the first behat test
+
+``` 
+$ fin behat
+```
