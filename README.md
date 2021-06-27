@@ -34,3 +34,11 @@ Import the database
 ``` 
 $ fin db import database/drupal-basket.sql 
 ```
+
+Install the packages.
+
+``` 
+$ fin bash 
+$ cd docroot
+$ composer install
+```
